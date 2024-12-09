@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <div t-name="spreadsheet_edition.DateFromToValue" class="date_filter_values" owl="1">
+        <DatePicker
+            date="dateFrom"
+            placeholder="fromPlaceholder"
+            onDateTimeChanged.bind="onDateFromChanged"
+        />
+        <i class="oi oi-arrow-right"></i>
+        <DatePicker
+            date="dateTo"
+            placeholder="toPlaceholder"
+            onDateTimeChanged.bind="onDateToChanged"
+        />
+    </div>
+</templates>
